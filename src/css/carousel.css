@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap');
+
+
+
+.Carousel{
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.Carousel img{
+  height: 85svh;
+  object-fit: cover;
+}
+
+.slick-dots{
+  bottom: 25px !important;
+  opacity: 0.6;
+}
+
+.slick-dots li button:before{
+  font-size: 10px;
+}
+
+.slick-prev {
+  left: 10px;
+  z-index: 2;
+
+}
+
+.slick-next {
+  right: 10px;
+transform: translate(-50%,-50%);
+
+
+}
+
+.slick-prev:before, .slick-next:before {
+  font-size: 30px;
+}
+
+.Carousel h2{
+  text-align: center !important;
+  position: absolute;
+  bottom: 50px;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  top: 82%;
+  color: #ffc03a;
+  z-index: 5;
+  font-family: 'changa';
+}
+
+.slide{
+  position: relative;
+  z-index: 1;
+}
+
+.slide::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  /* height: 200px;
+  background: linear-gradient(transparent,rgba(0, 0, 0, 0.609),black); */
+  height: 400px;
+  background: linear-gradient(transparent,black);
+  z-index: 4;
+  width: 100%;
+}
+
+
+
+.slick-dots li button:before {
+  font-family: 'slick';
+  /* font-size: 6px; */
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: '•';
+  text-align: center;
+  opacity: .25;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.slick-prev:before, .slick-next:before {
+  font-family: 'slick';
+  /* font-size: 20px; */
+  line-height: 1;
+  opacity: .75;
+  color: #ffc03a;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+.slick-dots li.slick-active button:before {
+  opacity: 0.75;
+  color: #ffc03a;
+}
+
+@media(max-width:500px) {
+  .Carousel h2{
+    top: 82%;
+    text-wrap: wrap;
+    width: 85%;
+    font-size: 20px;
+  }
+}
+
