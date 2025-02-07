@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/github.io/Engineering/static/css/main.015d645f.css",
+    "main.js": "/github.io/Engineering/static/js/main.5a850714.js",
+    "static/media/two.jpg": "/github.io/Engineering/static/media/two.04735731c54e8d3c1bad.jpg",
+    "static/media/green.jpg": "/github.io/Engineering/static/media/green.253756993fb4702eeb48.jpg",
+    "static/media/a-min.jpg": "/github.io/Engineering/static/media/a-min.e9dc5c63d332c69b4460.jpg",
+    "static/media/one.jpg": "/github.io/Engineering/static/media/one.7efb0ba9f88bb6263e34.jpg",
+    "static/media/back.jpg": "/github.io/Engineering/static/media/back.724ed233635ae25a617e.jpg",
+    "static/media/login.png": "/github.io/Engineering/static/media/login.2b1babeebcd5d10786d5.png",
+    "static/media/power-min.jpg": "/github.io/Engineering/static/media/power-min.6744afb0be89f436b362.jpg",
+    "static/media/minia5.png": "/github.io/Engineering/static/media/minia5.995a6b1bce9a925de811.png",
+    "static/media/s.jpg": "/github.io/Engineering/static/media/s.7080deac44add6224322.jpg",
+    "static/media/minia.jpg": "/github.io/Engineering/static/media/minia.be33c462a694cd428358.jpg",
+    "static/media/ai.jpg": "/github.io/Engineering/static/media/ai.dedcea83195ff5a1ad41.jpg",
+    "static/media/file2.png": "/github.io/Engineering/static/media/file2.a64634e4bdbf9ceba3f0.png",
+    "static/media/error.png": "/github.io/Engineering/static/media/error.28afb8888fab76caab5e.png",
+    "static/media/slick.svg": "/github.io/Engineering/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/github.io/Engineering/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/github.io/Engineering/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/github.io/Engineering/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/github.io/Engineering/index.html",
+    "main.015d645f.css.map": "/github.io/Engineering/static/css/main.015d645f.css.map",
+    "main.5a850714.js.map": "/github.io/Engineering/static/js/main.5a850714.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.015d645f.css",
+    "static/js/main.5a850714.js"
+  ]
+}
